@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "jobboard",
+    "slug": "jobboard",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5e79d95a-3fe7-4779-b5bd-051ade6b83da"
+      }
+    },
+    "android": {
+      "package": "com.forzaakcode.jobboard"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5e79d95a-3fe7-4779-b5bd-051ade6b83da"
+    },
+    "ios": {}
+  }
+}
